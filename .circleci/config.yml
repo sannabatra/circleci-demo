@@ -16,7 +16,7 @@ jobs:
           name: Run tests
           command: |
             . venv/bin/activate
-            pythin -m unittest discover
+            python -m unittest discover
 
 workflows:
   version: 2
